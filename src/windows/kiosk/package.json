@@ -1,0 +1,8 @@
+{
+  "name": "kiosk",
+  "version": "1.0.0",
+   "main": "event.js",
+    "scripts": {
+      "start": "electron"
+    }
+}

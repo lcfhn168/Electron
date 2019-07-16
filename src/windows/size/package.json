@@ -2,10 +2,6 @@
   "name":"first",
   "version":"1.0.0",
   "main":"index.js",
-  "dependencies": {
-    "electron": "^2.0.1",
-    "electron-packager": "^12.1.0"
-  },
   "devDependencies": {},
   "scripts": {
     "start": "electron ."

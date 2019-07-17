@@ -6,9 +6,6 @@ BrowserWindow对象的close方法用于关闭当前窗口
 global：全局变量，将所有窗口的BrowserWindow对象保存到windows数组中，将该数组保存到global中
  */
 const {app,BrowserWindow} = require('electron');
-
-
-
 function createWindow() {
     win = new BrowserWindow({
         webPreferences:{

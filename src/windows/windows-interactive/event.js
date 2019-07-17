@@ -18,7 +18,8 @@ function onClick_SendData() {
     win.loadFile('./other.html');
     win.once('ready-to-show',()=>{
         win.show();
-        win.webContents.send('data',{name:'Bill',salary:2345});
+        // win.webContents.send('data',{name:'Bill',salary:2345});
+        win.webContents.send('data',{name:'bill',salary:2345});
     });
 
 }

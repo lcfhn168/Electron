@@ -15,3 +15,5 @@
              
              
      打包    npm install electron-packager -g
+     electron-packager . firstmenu --electron-version=3.0.0
+     

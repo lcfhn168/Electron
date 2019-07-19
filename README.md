@@ -12,3 +12,6 @@
              program:electron
              argumments:.
              working directory:$FileDir$
+             
+             
+     打包    npm install electron-packager -g
